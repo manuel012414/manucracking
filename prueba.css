@@ -1,0 +1,23 @@
+div{
+  border: 1px solid black
+}
+#sidebar-right{
+float: right;
+width: 20%;
+/*overflow: hidden;*/
+}
+#sidebar-left{
+float: left;
+width: 20%;
+/*overflow: scroll;*/
+}
+#content{
+  /*float: center*/
+  width: 60%;
+  overflow: auto;
+}
+/*#footer{
+  float: down;
+    width: 20;
+   overflow; hidden;
+}*/
