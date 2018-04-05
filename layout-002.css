@@ -1,0 +1,29 @@
+#header{
+  border: 3px solid red;
+   width: auto;
+}
+
+#content{
+  border: 3px solid yellow;
+  padding: auto;
+}
+#content-left{
+  float: left;
+  border: thin solid blue;
+  width: 69%;
+
+
+}
+#content-right{
+  float: right;
+  border: thin solid pink;
+  width: 30%;
+}
+.clearfix{
+  clear: both;
+}
+
+#footer{
+  border: 3px solid green;
+  width: auto;
+}

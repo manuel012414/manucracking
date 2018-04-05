@@ -1,0 +1,33 @@
+
+#header{
+  border: 1px solid red;
+  width: auto;
+}
+#content{
+  border: 1px solid yellow;
+  width: auto;
+}
+#content-left{
+  border: 1px solid blue;
+  float: left;
+  width: 59%;
+}
+#content-center{
+  border: 1px solid pink;
+  float: right;
+  /*width: auto;*/
+  /*padding: auto;*/
+  width: 19%;
+}
+#content-right{
+  border: 1px solid black;
+  float: right;
+  width: 19%;
+}
+.clearfix{
+  clear: both;
+}
+#footer{
+  border: 1px solid green;
+  width: : auto;
+}

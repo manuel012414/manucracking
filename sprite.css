@@ -1,0 +1,13 @@
+.zombie-walk{
+  width: 521px;
+  height: 576px;
+  background: url("sprite-walk.png");
+  animation: run 0.75s steps(10) infinite, slide 4s steps(100) infinite;
+  /*margin-left: 100%;*/
+  }
+  @keyframes run {
+    100% { background-position: -5210px; }
+  }
+  @keyframes slide {
+    100% { margin-right: -521px;}
+}
