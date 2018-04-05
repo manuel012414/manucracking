@@ -9,5 +9,5 @@
     100% { background-position: -5210px; }
   }
   @keyframes slide {
-    100% { margin-right: -521px;}
+    100% { margin-left: 521px;}
 }
