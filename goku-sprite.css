@@ -1,17 +1,17 @@
-.zombie-walk{
+.gokublack{
   width: 521px;
   height: 576px;
   background: url("sprite-walk.png");
   animation: run 0.75s steps(10) infinite, slide 4s steps(100) infinite;
   /*margin-left: 100%;*/
   }
-  @keyframes run {
+/*  @keyframes run {
     100% { background-position: -5210px; }
   }
   @keyframes slide {
     100% { margin-left: 521px/*negativo se mueve a la derecha, positivo se mueve a la izquierda*/;
 
-      margin-top: 521px;
+  /*..    margin-top: 521px;
 
-    }
+    } */..
 }

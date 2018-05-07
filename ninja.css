@@ -1,0 +1,30 @@
+.background {
+  background: url("ninja/noche.jpg");
+  width: 626px;
+  height: 305px;
+  border: thin solid black;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  background-color: skyblue;
+  margin: 0 auto;
+
+}
+.ninja2{
+  width: 363px;
+  height: 458px;
+  background: url("ninja/ninja2.png");
+  animation: run 1s steps(10) infinite, slide 5s steps(100) infinite;
+  transform: scale(0.170);
+  position: absolute;
+  bottom: -65%;
+
+  }
+  @keyframes run {
+    100% { background-position: -3630px; }
+  }
+  @keyframes slide {
+    100% { margin-left: 363px;/*negativo se mueve a la derecha, positivo se mueve a la izquierda*/
+           /*margin-top: -521px;*/
+           }
+  }
